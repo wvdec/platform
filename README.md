@@ -36,3 +36,6 @@ git submodule update --init --recursive
 cd 
 build.cmd
 ```
+
+After build copy `p8-platform-config.cmake` 
+from `build/{ARCH}/lib/p8-platform` to root `p8-platform`
